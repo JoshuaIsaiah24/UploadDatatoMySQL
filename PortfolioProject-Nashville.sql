@@ -11,7 +11,7 @@ CREATE TABLE NashvilleHousing (
     ParcelID VARCHAR(255),
     LandUse VARCHAR(255),
     PropertyAddress VARCHAR(255),
-    SaleDate VARCHAR(255),
+    SaleDate Date(255),
     SalePrice DECIMAL(15, 2),
     LegalReference VARCHAR(255),
     SoldAsVacant BOOLEAN,
